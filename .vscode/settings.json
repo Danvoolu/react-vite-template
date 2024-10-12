@@ -1,8 +1,10 @@
 {
+  "eslint.enable": false,
+  "prettier.enable": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "quickfix.biome": "explicit",
-    "source.organizeImports.biome": "explicit"
+    "source.organizeImports.biome": "explicit" //importの並び替え
   },
   "[javascript]": {
     "editor.defaultFormatter": "biomejs.biome"
@@ -11,6 +13,9 @@
     "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
     "editor.defaultFormatter": "biomejs.biome"
   }
 }
