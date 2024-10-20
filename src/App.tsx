@@ -5,8 +5,16 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-  const a = 123;
+  const b = 124124;
 
+  const obj = {
+    b: 1,
+    a: 2,
+    c: 3,
+  };
+
+  if (true) {
+  }
   return (
     <>
       <div>
